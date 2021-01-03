@@ -1,0 +1,19 @@
+{% extends 'search/base.html' %}
+{% load static %}
+
+{% block content %}
+
+<!-- .how-to-use-section -->
+<div class="how-to-section">
+    <div class="how-to-body">
+        <div class="how-to-text">
+            <h4>「口コミ de お店検索」とは</h4>
+            <p>ぐるなび内に投稿された口コミから入力したエリアとワードを検索し、ヒットしたお店の情報を見ることが出来るアプリケーションです。<br>従来のサービスにはない新しい方法でお店を探すことが出来ます。</p>
+        </div>
+    </div>
+    <div class="how-to-img">
+        <img src="{% static 'img/how-to-use.png' %}">
+    </div>
+</div>
+<!-- /.how-to-use-section -->
+{% endblock %}

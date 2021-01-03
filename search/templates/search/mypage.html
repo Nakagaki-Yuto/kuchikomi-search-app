@@ -1,0 +1,23 @@
+{% extends 'search/base.html' %}
+{% load static %}
+
+{% block content %}
+<script type="text/javascript">
+    var line = document.getElementById("mypage");
+    line.classList.add("navbar-display");
+</script>
+
+<!-- .mypage-section -->
+<div class="mypage-section">
+    <div class="mypage-body">
+        <div class="mypage-text">
+            <h4>マイページ</h4>
+        </div>
+    </div>
+    <div class="mypage-buttons">
+        <a href="{% url 'favorite_shops' %}" class="btn btn-danger">お気に入り店舗一覧</a>
+        <a href="{% url 'password_change' %}" class="btn btn-danger">パスワード変更</a>
+    </div>
+</div>
+<!-- /.mypage-section -->
+{% endblock %}

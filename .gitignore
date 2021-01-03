@@ -1,0 +1,14 @@
+*.pyc
+*~
+/.vscode
+__pycache__
+eb-virt
+db.sqlite3
+/static
+.DS_Stores
+local_settings.py
+
+# elastic beanstalk
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
