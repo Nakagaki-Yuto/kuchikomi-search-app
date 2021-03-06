@@ -8,7 +8,7 @@ GURUNABI WEB SERVICE（ぐるなびのAPI）を活用し、「エリア」と「
 
 <br>
 
-【URL】[口コミ de 検索](http://kuchikomi-search-app.tk/)<br>
+【URL】[口コミ de 検索](http://kuchikomi-search-app.tk/)(停止中）<br>
 
   デモ用アカウント<br>
   ユーザー名: testuser1<br>
